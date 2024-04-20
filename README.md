@@ -7,6 +7,7 @@
 cd $HOME &&
 pkg update &&
 pkg install git nodejs &&
+rm -rf FacebookLikers
 git clone https://github.com/Kairu-bit/FacebookLikers &&
 cd FacebookLikers &&
 node index.js
